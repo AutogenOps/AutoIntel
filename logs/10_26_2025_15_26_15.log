@@ -1,0 +1,166 @@
+{"timestamp": "2025-10-26T09:56:32.303891Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-10-26T09:56:32.304151Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:56:32.304260Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:56:32.304342Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:56:32.306363Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:56:32.346894Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:56:32.347042Z", "level": "info", "event": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:56:32.377057Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:56:32.377705Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:56:32.378177Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:56:32.386884Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:56:32.395056Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "ReportService", "topic": "effect of genai on developers", "thread_id": "6c6ee9bd-8778-4760-adde-8dc43af1b328", "timestamp": "2025-10-26T09:56:32.395192Z", "level": "info", "event": "Starting report pipeline"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "timestamp": "2025-10-26T09:56:32.397600Z", "level": "info", "event": "Creating analyst personas"}
+{"module": "AutonomousReportGenerator", "count": 3, "timestamp": "2025-10-26T09:56:34.744327Z", "level": "info", "event": "Analysts created"}
+{"timestamp": "2025-10-26T09:56:54.859419Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-10-26T09:56:54.859565Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:56:54.859642Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:56:54.859705Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:56:54.861502Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:56:54.861613Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:56:54.861698Z", "level": "info", "event": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:56:54.863842Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:56:54.864088Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:56:54.864628Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:56:54.872482Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:56:54.880644Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "ReportService", "thread_id": "6c6ee9bd-8778-4760-adde-8dc43af1b328", "timestamp": "2025-10-26T09:56:54.881658Z", "level": "info", "event": "Feedback updated"}
+{"module": "InterviewGraphBuilder", "analyst": "Sarah Chen", "timestamp": "2025-10-26T09:56:54.887519Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Ben Carter", "timestamp": "2025-10-26T09:56:54.889300Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Alice Miller", "timestamp": "2025-10-26T09:56:54.889556Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "question_preview": "Hello, I'm Anya Sharma, an analyst focusing on the societal impacts of AI. I'm eager to learn from your expertise on the ethical implications of GenAI in software development.\n\nTo start, what's the mo", "timestamp": "2025-10-26T09:56:56.118405Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:56:56.119519Z", "level": "info", "event": "Generating search query from conversation"}
+{"module": "InterviewGraphBuilder", "question_preview": "Hello, I'm Sarah Chen, a Workforce Transformation Analyst with the Future of Work Consortium. I'm researching the impact of GenAI on the software development job market.\n\nExpert, could you give me an ", "timestamp": "2025-10-26T09:56:56.725493Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:56:56.726040Z", "level": "info", "event": "Generating search query from conversation"}
+{"module": "InterviewGraphBuilder", "question_preview": "Hello, I'm Sarah Chen, an analyst with a focus on emerging tech's impact on software development. I'm particularly interested in how GenAI is changing the game for developers, both in terms of opportu", "timestamp": "2025-10-26T09:56:57.164713Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "query": "ethical challenges of GenAI for software developers", "timestamp": "2025-10-26T09:56:57.165602Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:56:57.166816Z", "level": "info", "event": "Generating search query from conversation"}
+{"module": "InterviewGraphBuilder", "query": "impact of GenAI on software developers with specific examples", "timestamp": "2025-10-26T09:56:57.784216Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "query": "how are GenAI tools being integrated into existing development workflows to improve efficiency?", "timestamp": "2025-10-26T09:56:58.309584Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2025-10-26T09:57:00.877349Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Alice Miller", "timestamp": "2025-10-26T09:57:00.877936Z", "level": "info", "event": "Generating expert answer"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2025-10-26T09:57:01.231628Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Sarah Chen", "timestamp": "2025-10-26T09:57:01.232139Z", "level": "info", "event": "Generating expert answer"}
+{"module": "InterviewGraphBuilder", "preview": " Also, what are your thoughts on the learning curve associated with these tools, and how can developers best prepare for the shift?", "timestamp": "2025-10-26T09:57:02.352240Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2025-10-26T09:57:02.352956Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Alice Miller", "timestamp": "2025-10-26T09:57:02.353696Z", "level": "info", "event": "Generating report section"}
+{"module": "InterviewGraphBuilder", "preview": "", "timestamp": "2025-10-26T09:57:02.875530Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2025-10-26T09:57:02.876211Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Sarah Chen", "timestamp": "2025-10-26T09:57:02.876952Z", "level": "info", "event": "Generating report section"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2025-10-26T09:57:02.925168Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Ben Carter", "timestamp": "2025-10-26T09:57:02.925694Z", "level": "info", "event": "Generating expert answer"}
+{"module": "InterviewGraphBuilder", "preview": "", "timestamp": "2025-10-26T09:57:05.679101Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2025-10-26T09:57:05.679689Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Ben Carter", "timestamp": "2025-10-26T09:57:05.680603Z", "level": "info", "event": "Generating report section"}
+{"module": "InterviewGraphBuilder", "length": 3004, "timestamp": "2025-10-26T09:57:06.730950Z", "level": "info", "event": "Report section generated successfully"}
+{"module": "InterviewGraphBuilder", "length": 2973, "timestamp": "2025-10-26T09:57:07.074008Z", "level": "info", "event": "Report section generated successfully"}
+{"module": "InterviewGraphBuilder", "length": 3435, "timestamp": "2025-10-26T09:57:11.429243Z", "level": "info", "event": "Report section generated successfully"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "timestamp": "2025-10-26T09:57:11.438721Z", "level": "info", "event": "Writing report"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "timestamp": "2025-10-26T09:57:11.439183Z", "level": "info", "event": "Generating conclusion"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "timestamp": "2025-10-26T09:57:11.439380Z", "level": "info", "event": "Generating introduction"}
+{"module": "AutonomousReportGenerator", "length": 717, "timestamp": "2025-10-26T09:57:13.656543Z", "level": "info", "event": "Conclusion generated"}
+{"module": "AutonomousReportGenerator", "length": 638, "timestamp": "2025-10-26T09:57:13.823158Z", "level": "info", "event": "Introduction generated"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:57:17.913387Z", "level": "info", "event": "Report written successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:57:17.914038Z", "level": "info", "event": "Finalizing report compilation"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:57:17.914272Z", "level": "info", "event": "Report finalized"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "format": "docx", "timestamp": "2025-10-26T09:57:17.915420Z", "level": "info", "event": "Saving report"}
+{"module": "AutonomousReportGenerator", "path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\generated_report\\effect_of_genai_on_developers_20251026_152717\\effect_of_genai_on_developers_20251026_152717.docx", "timestamp": "2025-10-26T09:57:17.960726Z", "level": "info", "event": "Report saved successfully"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "format": "pdf", "timestamp": "2025-10-26T09:57:17.960879Z", "level": "info", "event": "Saving report"}
+{"module": "AutonomousReportGenerator", "path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\generated_report\\effect_of_genai_on_developers_20251026_152717\\effect_of_genai_on_developers_20251026_152717.pdf", "timestamp": "2025-10-26T09:57:17.969518Z", "level": "info", "event": "Centered PDF saved successfully"}
+{"module": "AutonomousReportGenerator", "path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\generated_report\\effect_of_genai_on_developers_20251026_152717\\effect_of_genai_on_developers_20251026_152717.pdf", "timestamp": "2025-10-26T09:57:17.969672Z", "level": "info", "event": "Report saved successfully"}
+{"timestamp": "2025-10-26T09:57:35.391703Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-10-26T09:57:35.391826Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:57:35.391896Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:57:35.391959Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:57:35.393700Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:57:35.393801Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:57:35.393881Z", "level": "info", "event": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:57:35.395810Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:57:35.395999Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:57:35.396452Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:57:35.404875Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:57:35.413150Z", "level": "info", "event": "Report generation graph built successfully"}
+{"timestamp": "2025-10-26T09:58:29.669368Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-10-26T09:58:29.669491Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:58:29.669560Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:58:29.669623Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:58:29.671342Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:58:29.671443Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:58:29.671520Z", "level": "info", "event": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:58:29.673850Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:58:29.674050Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:58:29.674532Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:58:29.682301Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:58:29.690355Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "ReportService", "topic": "effect of genai on developers", "thread_id": "97332d2e-0a10-4f20-92cf-bb4d10c7ec3a", "timestamp": "2025-10-26T09:58:29.690520Z", "level": "info", "event": "Starting report pipeline"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "timestamp": "2025-10-26T09:58:29.692567Z", "level": "info", "event": "Creating analyst personas"}
+{"module": "AutonomousReportGenerator", "count": 3, "timestamp": "2025-10-26T09:58:32.172176Z", "level": "info", "event": "Analysts created"}
+{"timestamp": "2025-10-26T09:58:40.397543Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-10-26T09:58:40.397669Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:58:40.397744Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:58:40.397809Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:58:40.399551Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:58:40.399653Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:58:40.399730Z", "level": "info", "event": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:58:40.401648Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:58:40.401848Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:58:40.402299Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:58:40.410058Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:58:40.418300Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "ReportService", "thread_id": "97332d2e-0a10-4f20-92cf-bb4d10c7ec3a", "timestamp": "2025-10-26T09:58:40.419194Z", "level": "info", "event": "Feedback updated"}
+{"module": "InterviewGraphBuilder", "analyst": "Bob Williams", "timestamp": "2025-10-26T09:58:40.424124Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Alice Miller", "timestamp": "2025-10-26T09:58:40.425596Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Charlie Davis", "timestamp": "2025-10-26T09:58:40.426971Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "question_preview": "Hello, I'm Sarah Chen, an analyst with a focus on the evolving landscape of software development. I'm particularly interested in the practical implications of GenAI for developers.\n\nExpert, could you ", "timestamp": "2025-10-26T09:58:41.911366Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:58:41.912601Z", "level": "info", "event": "Generating search query from conversation"}
+{"module": "InterviewGraphBuilder", "question_preview": "Hello, I'm Charlie Davis, a Workforce Transformation Analyst with the Future of Work Consortium. I'm researching the long-term impact of GenAI on the software development job market.\n\nExpert, could yo", "timestamp": "2025-10-26T09:58:42.350280Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:58:42.350827Z", "level": "info", "event": "Generating search query from conversation"}
+{"module": "InterviewGraphBuilder", "question_preview": "Hello, I'm Anya Sharma, an analyst focusing on the transformative impacts of AI. I'm eager to learn from your expertise, expert, on the ethical dimensions of GenAI's influence on software developers.\n", "timestamp": "2025-10-26T09:58:42.440879Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:58:42.441404Z", "level": "info", "event": "Generating search query from conversation"}
+{"module": "InterviewGraphBuilder", "query": "How GenAI tools are impacting developers' day-to-day work?", "timestamp": "2025-10-26T09:58:43.140576Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "query": "impact of GenAI on software development beyond code generation", "timestamp": "2025-10-26T09:58:43.577691Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "query": "ethical challenges of using GenAI in software development workflow", "timestamp": "2025-10-26T09:58:44.022200Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2025-10-26T09:58:46.675817Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Alice Miller", "timestamp": "2025-10-26T09:58:46.676605Z", "level": "info", "event": "Generating expert answer"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2025-10-26T09:58:47.408838Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Bob Williams", "timestamp": "2025-10-26T09:58:47.409501Z", "level": "info", "event": "Generating expert answer"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2025-10-26T09:58:47.740212Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Charlie Davis", "timestamp": "2025-10-26T09:58:47.740839Z", "level": "info", "event": "Generating expert answer"}
+{"module": "InterviewGraphBuilder", "preview": "", "timestamp": "2025-10-26T09:58:48.335427Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2025-10-26T09:58:48.336048Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Bob Williams", "timestamp": "2025-10-26T09:58:48.336992Z", "level": "info", "event": "Generating report section"}
+{"module": "InterviewGraphBuilder", "preview": "", "timestamp": "2025-10-26T09:58:48.932082Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2025-10-26T09:58:48.932712Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Charlie Davis", "timestamp": "2025-10-26T09:58:48.933504Z", "level": "info", "event": "Generating report section"}
+{"module": "InterviewGraphBuilder", "preview": "\nExpert :GenAI tools are impacting developers' day-to-day work in several significant ways. According to the 2024 DORA Report, 76% of developers now incorporate generative AI into their daily workflow", "timestamp": "2025-10-26T09:58:49.773856Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2025-10-26T09:58:49.774519Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Alice Miller", "timestamp": "2025-10-26T09:58:49.775374Z", "level": "info", "event": "Generating report section"}
+{"module": "InterviewGraphBuilder", "length": 2917, "timestamp": "2025-10-26T09:58:53.010055Z", "level": "info", "event": "Report section generated successfully"}
+{"module": "InterviewGraphBuilder", "length": 2858, "timestamp": "2025-10-26T09:58:53.440252Z", "level": "info", "event": "Report section generated successfully"}
+{"module": "InterviewGraphBuilder", "length": 4479, "timestamp": "2025-10-26T09:58:56.226028Z", "level": "info", "event": "Report section generated successfully"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "timestamp": "2025-10-26T09:58:56.227863Z", "level": "info", "event": "Writing report"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "timestamp": "2025-10-26T09:58:56.228027Z", "level": "info", "event": "Generating conclusion"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "timestamp": "2025-10-26T09:58:56.229038Z", "level": "info", "event": "Generating introduction"}
+{"module": "AutonomousReportGenerator", "length": 751, "timestamp": "2025-10-26T09:58:58.778506Z", "level": "info", "event": "Conclusion generated"}
+{"module": "AutonomousReportGenerator", "length": 740, "timestamp": "2025-10-26T09:58:58.780620Z", "level": "info", "event": "Introduction generated"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:59:02.355243Z", "level": "info", "event": "Report written successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:59:02.356017Z", "level": "info", "event": "Finalizing report compilation"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:59:02.356153Z", "level": "info", "event": "Report finalized"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "format": "docx", "timestamp": "2025-10-26T09:59:02.357669Z", "level": "info", "event": "Saving report"}
+{"module": "AutonomousReportGenerator", "path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\generated_report\\effect_of_genai_on_developers_20251026_152902\\effect_of_genai_on_developers_20251026_152902.docx", "timestamp": "2025-10-26T09:59:02.427131Z", "level": "info", "event": "Report saved successfully"}
+{"module": "AutonomousReportGenerator", "topic": "effect of genai on developers", "format": "pdf", "timestamp": "2025-10-26T09:59:02.427291Z", "level": "info", "event": "Saving report"}
+{"module": "AutonomousReportGenerator", "path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\generated_report\\effect_of_genai_on_developers_20251026_152902\\effect_of_genai_on_developers_20251026_152902.pdf", "timestamp": "2025-10-26T09:59:02.435536Z", "level": "info", "event": "Centered PDF saved successfully"}
+{"module": "AutonomousReportGenerator", "path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\generated_report\\effect_of_genai_on_developers_20251026_152902\\effect_of_genai_on_developers_20251026_152902.pdf", "timestamp": "2025-10-26T09:59:02.435689Z", "level": "info", "event": "Report saved successfully"}
+{"timestamp": "2025-10-26T09:59:18.509106Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-10-26T09:59:18.509230Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:59:18.509298Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-10-26T09:59:18.509358Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "C:\\Users\\Akash\\LLMOPS\\LLMOPS\\automated-research-report-generation-final\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:59:18.511068Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T09:59:18.511171Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:59:18.511247Z", "level": "info", "event": "Loading LLM"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T09:59:18.513073Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:59:18.513261Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:59:18.513757Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-10-26T09:59:18.521799Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-10-26T09:59:18.529807Z", "level": "info", "event": "Report generation graph built successfully"}
